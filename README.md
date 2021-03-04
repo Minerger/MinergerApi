@@ -37,4 +37,4 @@ Complete installation requirements can be found in the documentation under [Inst
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-This project are released under the [MIT License](https://github.com/Minerger/MinergerApi/blob/main/LICENSE)
+This project are released under the [MIT License](https://github.com/Minerger/MinergerApi/blob/main/LICENSE.md)
