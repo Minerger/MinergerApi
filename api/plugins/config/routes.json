@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/annonces",
-      "handler": "annonce.find",
+      "path": "/plugins",
+      "handler": "plugins.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/annonces/count",
-      "handler": "annonce.count",
+      "path": "/plugins/count",
+      "handler": "plugins.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/annonces/:id",
-      "handler": "annonce.findOne",
+      "path": "/plugins/:id",
+      "handler": "plugins.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/annonces",
-      "handler": "annonce.create",
+      "path": "/plugins",
+      "handler": "plugins.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/annonces/:id",
-      "handler": "annonce.update",
+      "path": "/plugins/:id",
+      "handler": "plugins.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/annonces/:id",
-      "handler": "annonce.delete",
+      "path": "/plugins/:id",
+      "handler": "plugins.delete",
       "config": {
         "policies": []
       }
