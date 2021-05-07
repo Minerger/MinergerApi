@@ -6,31 +6,3 @@ updates:
     interval: daily
     time: "04:00"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: strapi-plugin-email
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-connector-bookshelf
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-plugin-content-manager
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-plugin-users-permissions
-    versions:
-    - 3.5.4
-  - dependency-name: strapi
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-plugin-content-type-builder
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-plugin-upload
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-utils
-    versions:
-    - 3.5.4
-  - dependency-name: strapi-admin
-    versions:
-    - 3.5.4
