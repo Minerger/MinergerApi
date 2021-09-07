@@ -54,7 +54,7 @@ yarn start-prod
 ```
 
 ## Requirements
-Complete installation requirements can be found in the documentation under [Installation Requirements](https://strapi.io/documentation/developer-docs/latest/installation/cli.html#step-1-make-sure-requirements-are-met).
+Complete installation requirements can be found in the documentation under [Installation Requirements](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment.html#recommended-requirements).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
