@@ -1,51 +1,37 @@
 {
   "name": "minerger-api",
   "private": true,
-  "version": "1.0.7",
-  "description": "A Strapi application",
+  "version": "1.1.0",
+  "description": "Headless CMS for Minerger",
   "scripts": {
     "dev": "strapi develop",
+    "test": "jest --forceExit --detectOpenHandles",
     "start": "strapi start",
     "build": "strapi build",
-    "start-prod": "cross-env NODE_ENV=production yarn start",
+    "start-prod": "cross-env NODE_ENV=production npm run start",
     "build-prod": "cross-env NODE_ENV=production npm run build",
-    "test": "jest --forceExit --detectOpenHandles"
-  },
-  "devDependencies": {
-    "jest": "^26.6.3",
-    "sqlite3": "^5.0.2",
-    "supertest": "^6.1.6"
+    "strapi": "strapi"
   },
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "knex": "^0.21.18",
-    "strapi": "^3.6.8",
-    "strapi-admin": "^3.6.8",
-    "strapi-connector-bookshelf": "^3.6.8",
-    "strapi-plugin-content-manager": "^3.6.8",
-    "strapi-plugin-content-type-builder": "^3.6.8",
-    "strapi-plugin-email": "^3.6.8",
-    "strapi-plugin-upload": "^3.6.8",
-    "strapi-plugin-users-permissions": "^3.6.8",
-    "strapi-utils": "^3.6.8"
+    "@strapi/plugin-i18n": "4.0.6",
+    "@strapi/plugin-users-permissions": "4.0.6",
+    "@strapi/strapi": "4.0.6"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "55d48a1c-c2e2-4fdf-9194-01d0cb89de50"
+    "uuid": "09c63601-3944-4efb-b249-bc2e4b5f6a34"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      ".tmp",
-      ".cache"
-    ],
-    "testEnvironment": "node"
-  }
+  "testEnvironment": "node"
 }

@@ -1,4 +1,3 @@
-
 <p align="center">
     <a href="https://minerger.fr">
         <img width="60px" src="https://minerger.vercel.app/images/minerger.svg" />
@@ -31,32 +30,38 @@
 First, clone the repo via git and install dependencies :
 
 - Clone repository (`depth` is the amount of commits you want to include. i.e. if you just want the latest commit use git clone --depth 1)
+
 ```bash
 git clone --depth 1 https://github.com/Minerger/MinergerApi your-project-name
 ```
 
-- (Use yarn to install the Strapi project (recommended). [Install yarn with these docs](https://classic.yarnpkg.com/en/docs/install/).) 
+- (Use yarn to install the Strapi project (recommended). [Install yarn with these docs](https://classic.yarnpkg.com/en/docs/install/).)
 
 ```bash
 cd your-project-name
 yarn install
 ```
+
 ## Start the project
 
 Start the app in the `dev` environment :
+
 ```bash
 yarn dev
 ```
 
 Start the app in the `prod` environment :
+
 ```bash
 yarn start-prod
 ```
 
 ## Requirements
-Complete installation requirements can be found in the documentation under [Installation Requirements](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment.html#recommended-requirements).
+
+Complete installation requirements can be found in the documentation under [Installation Requirements](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html#recommended-requirements).
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Try live demo
@@ -64,4 +69,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 See for yourself what's under the hood by getting access to a [hosted Strapi](https://minerger-api.herokuapp.com/) project with sample data.
 
 ## License
+
 This project are released under the [MIT License](https://github.com/Minerger/MinergerApi/blob/main/LICENSE.md)
