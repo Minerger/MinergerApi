@@ -13,9 +13,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "^4.0.7",
-    "@strapi/plugin-users-permissions": "^4.0.7",
-    "@strapi/strapi": "^4.0.7"
+    "@strapi/plugin-i18n": "^4.1.0",
+    "@strapi/plugin-users-permissions": "^4.1.0",
+    "@strapi/strapi": "^4.1.0"
   },
   "devDependencies": {
     "jest": "^27.4.7",
