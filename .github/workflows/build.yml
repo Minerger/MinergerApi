@@ -4,6 +4,9 @@ on: push
 
 env:
   APP_KEYS: ${{ secrets.APP_KEYS }}
+  API_TOKEN_SALT: ${{ secrets.API_TOKEN_SALT }}
+  ADMIN_JWT_SECRET: ${{ secrets.ADMIN_JWT_SECRET }}
+  JWTSECRET: ${{ secrets.JWTSECRET }}
 
 jobs:
   build:
