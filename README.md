@@ -1,3 +1,6 @@
+> **Warning**
+> The project is temporarily suspended, some services available below may be inaccessible
+
 <p align="center">
     <a href="https://minerger.fr">
         <img width="60px" src="https://minerger.vercel.app/images/minerger.svg" />
