@@ -1,7 +1,7 @@
 {
   "name": "minerger-api",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Headless CMS for Minerger",
   "scripts": {
     "dev": "strapi develop",
