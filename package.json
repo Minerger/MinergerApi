@@ -5,9 +5,9 @@
   "description": "Headless CMS for Minerger",
   "scripts": {
     "dev": "strapi develop",
-    "test": "jest --forceExit --detectOpenHandles",
     "start": "strapi start",
     "build": "strapi build",
+    "test": "jest --detectOpenHandles --forceExit",
     "start-prod": "cross-env NODE_ENV=production npm run start",
     "build-prod": "cross-env NODE_ENV=production npm run build",
     "strapi": "strapi"
